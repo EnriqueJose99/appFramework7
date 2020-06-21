@@ -86,6 +86,23 @@ h1,h2,h3,h4{
 	font-size: 20px;
 }
 
+.categorias .card{
+	background-color: var(--azul);
+	color: #fff;
+	padding: 5px 10px;
+}
+
+.categorias .card-content img{
+	width: 40px;
+}
+
+.derecha{
+	text-align: right;
+}
+
+.categorias h3{
+	margin-top: -12%;
+}
 
 
 
