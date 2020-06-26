@@ -8,9 +8,9 @@ var app = new Framework7({
     },
 	cache:false,
 	cacheDuration: 0,
-	modalTitle: 'My App',
+	modalTitle: 'Delivery Food',
 	dialog: {
-		title: 'Diseño web 2 ',
+		title: 'Delivery Food',
 		buttonOk: 'Aceptar',
   	},
 	routes: [
@@ -23,6 +23,16 @@ var app = new Framework7({
 		path: '/about/',
     	url: 'about.html',
     	name: 'about',
+  		},
+		{
+		path: '/profile/',
+    	url: 'profile.html',
+    	name: 'profile',
+  		},
+		{
+		path: '/carnes/',
+    	url: 'carnes.html',
+    	name: 'carnes',
   		}
 	]
 });
